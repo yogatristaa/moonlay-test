@@ -1,0 +1,13 @@
+2025-08-10 14:32:50 [INFO] app[web] - Starting application version 1.3.2
+2025-08-10 14:32:50 [DEBUG] app[web] - Loaded configuration from /etc/app/config.yml
+2025-08-10 14:32:50 [WARN] cache[redis] - Connection to Redis timed out, retrying...
+2025-08-10 14:32:51 [INFO] app[web] - Initializing database connection...
+2025-08-10 14:32:51 [ERROR] app[web] - Unable to connect to database: timeout expired
+2025-08-10 14:32:52 [DEBUG] app[web] - Retrying DB connection (attempt 1/5)
+2025-08-10 14:32:54 [ERROR] db[migrate] - Migration failed: relation "users" does not exist
+2025-08-10 14:32:54 [DEBUG] db[driver] - Auth method: password
+2025-08-10 14:32:54 [DEBUG] db[driver] - DB_USER=admin
+2025-08-10 14:32:54 [DEBUG] db[driver] - DB_PASS=changeme
+2025-08-10 14:32:54 [ERROR] db[driver] - FATAL: password authentication failed for user "admin"
+2025-08-10 14:32:56 [INFO] app[web] - Shutting down service gracefully
+2025-08-10 14:32:56 [ERROR] app[web] - Service stopped due to unrecoverable DB error
